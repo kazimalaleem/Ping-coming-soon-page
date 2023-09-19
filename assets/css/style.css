@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Franklin", sans-serif;
+}
+
+:root {
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+
+.wapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.ping-contant img {
+    padding: 40px;
+}
+
+.ping-contant h1 {
+    color: var(--Gray);
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.ping-contant span {
+    color: var(--Very-Dark-Blue);
+    font-weight: 700;
+}
+
+.ping-contant p {
+    color: var(--Very-Dark-Blue);
+    font-size: 14px;
+    margin: 10px 0 30px 0;
+}
+
+.error {
+    color: var(--Light-Red);
+}
+
+#email {
+    padding: 9px 65px 9px 20px;
+    border-radius: 20px;
+    outline: 1px solid var(--Gray);
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+button {
+    padding: 9px 98px 9px 99px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: var(--Blue);
+    box-shadow: 0px 12px 14px -12px var(--Blue);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.ping-banner img {
+    width: 293px;
+    margin: 2em 0;
+    height: auto;
+}
+
+
+.ping-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.ping-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    outline: 1px solid var(--Blue);
+    width: 35px;
+    height: 35px;
+    color: var(--Blue);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ping-icon i:hover {
+    color: white;
+    outline: none;
+    background-color: var(--Blue);
+}
+
+.ping-copy {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29px;
+    margin-bottom: 35px;
+    color: var(--Gray);
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.attribution a {
+    color: var(--Blue);
+}
+
+#msg{
+    color: var(--Light-Red);
+    font-weight: 300;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:786px) {
+    .ping-contant h1 {
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 32px;
+    }
+
+    .ping-contant p {
+        font-size: 18px;
+    }
+
+    .ping-banner img {
+        width: 400px;
+        height: auto;
+    }
+
+    #form {
+        display: flex;
+        gap: 13px;
+    }
+
+    .input-control {
+        display: flex;
+        gap: 10px;
+    }
+
+    #email {
+        padding: 9px 65px 9px 20px;
+        border-radius: 20px;
+        outline: 1px solid var(--Gray);
+        border: none;
+        margin-bottom: 22px;
+    }
+
+    button {
+        padding: 9px 21px 9px 21px;
+    }
+
+    .attribution {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+@media (min-width:1024px) {
+    .ping-contant h1 {
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 32px;
+    }
+
+    .ping-contant p {
+        font-size: 18px;
+    }
+
+    .ping-banner img {
+        width: 400px;
+        height: auto;
+    }
+
+    #form {
+        display: flex;
+        gap: 13px;
+    }
+
+    button {
+        padding: 9px 21px 9px 21px;
+    }
+
+    .attribution {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width:1440px) {
+    .ping-contant h1 {
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 34px;
+    }
+
+    .ping-contant p {
+        font-size: 18px;
+    }
+
+    .ping-banner img {
+        width: 500px;
+        height: auto;
+    }
+
+    #form {
+        display: block;
+        gap: 13px;
+    }
+
+    button {
+        padding: 9px 21px 9px 21px;
+        margin-bottom: 9px;
+    }
+
+    .attribution {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    #email {
+        padding: 9px 65px 9px 20px;
+        border-radius: 20px;
+        outline: 1px solid var(--Gray);
+        border: none;
+        margin-bottom: 22px;
+    }
+  
+} 
